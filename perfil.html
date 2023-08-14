@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="cajaperfil">
+        <div class="caja1">
+            <h1>Perfil de Usuario</h1>
+            <!-- Campo de texto para el nombre -->
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="campotexto" id="nombre" name="nombre"><br>
+            
+            <!-- Campo de texto para el apellido -->
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="campotexto" id="apellido" name="apellido"><br>
+            
+            <!-- Campo de texto para el DNI -->
+            <label for="dni">DNI:</label>
+            <input type="text" class="campotexto" id="dni" name="dni"><br>
+            <!-- Campo de texto para el genero-->
+            <div class="campoperfil">
+            <label for="genero">Genero:</label>
+            <select id="genero" class="campotexto" name="genero">
+                <option value="Masculuno">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+             </div>
+            <!-- Campo de texto para la provincia -->
+            <div class="campoperfil">
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" class="campotexto" name="provincia"><br>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="CABA">Ciudad Autónoma de Buenos Aires (CABA)</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                <option value="Tucumán">Tucumán</option>
+            </select>
+            </div>
+            <div class="campoperfil">
+            <!-- Campo de texto para la fecha de nacimiento -->
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" class="campotexto" name="fechaNacimiento"><br>
+            &nbsp;
+             </div>
+            <!-- Botón para enviar el formulario -->
+            <input type="submit" value="Guardar">
+        </div>
+    </section>
+    </body>
+</html>

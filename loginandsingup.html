@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <section class="cajalogin">
+        <div class  = "loginDeUsuario">
+           
+            <article class="caja">
+                <article class="Titulos">
+                    <h2>Iniciar sesion</h2>
+                </article>
+                <form id="loginForm" action="#" method="post">
+                    <div class="cajaprincipal">
+                    <label for = "usuario"> Correo electronico: </label>
+                    <input type="text" class="campotexto" id="usuario" name="Usuario" required>
+                    <label for="contrasena"> Contraseña:</label>
+                    <input type="password" class="campotexto" id = "contrasena" name="contrasena " required>
+                    </div>
+                <article class="campos"> 
+                    <div class="cajaprincipal">
+                    <input type="submit" value="Iniciar sesion">
+                    <input type="button" class="cancelarbuton" value="cancelar" onclick="cancelar()">
+                    </div>
+                    
+                </article>
+                </form>
+            </article>
+            <div>
+
+           <label class="color-notengocuenta"> No tengo cuenta&nbsp;&nbsp;&nbsp;</label>
+                <button class="botonRegistro"  onclick="mostrarregistro()">registrarme</button>
+            </div>
+        </div>
+    </section>
+    <section class="cajaregistro">
+        <div class ="registro">
+           
+            <article class="caja2">
+                <article class="Titulos">
+                <h2>Registrarse</h2>
+                </article>
+                <form id="registroForm" action="#" method="post" onsubmit="return compararCampos()">
+                    <div class="cajaprincipal"> 
+                        <label for = "usuario"> Correo electronico: </label>
+                        <input type="text" class="campotexto" id="usuarioregistro" name="usuarioregistro">
+                        <label for="contrasena"> Contraseña:</label>
+                        <input type="password" class="campotexto" id = "contrasenaregistro" name="contrasenaregistro ">
+                        <label for="contrasena"> Repita su contraseña</label>
+                        <input type="password" class="campotexto" id = "contrasenaregistro1" name="contrasenaregistro1">
+                    </div>
+                    <div class="cajaprincipal">
+                        <input type ="button" class="confirmarbuton" value="Confirmar" onclick="compararCampos()">
+                        <input type="button" class="cancelarbuton" value="cancelar" onclick="cancelar()">
+                        <button class="botonvolver"  onclik="volveratras()">Volver</button>
+                    </div>
+            </form>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,212 @@
+.registro{
+    display:none;
+}
+.cajaprincipal{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+
+}
+.confirmarbuton{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #5c04c0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.confirmarbuton:hover{
+    background-color: #6908b8;
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.campotexto{
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 10px; /* Radio para hacerlo redondeado */
+    padding: 10px; /* Espaciado interno para que el texto no quede pegado al borde */
+    font-size: 16px; /* Tamaño de fuente */
+}
+.campotexto:focus {
+    border-color: #5e01f5; /* Cambia el color del borde cuando está enfocado */
+    box-shadow: 0 0 5px #3906c7; /* Agrega una sombra alrededor cuando está enfocado */
+    outline: none; /* Elimina el contorno predeterminado del enfoque en algunos navegadores */
+  }
+.campos{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.cajalogin{
+  
+    height: 30vh;
+    z-index: 11;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.cajaregistro{
+    
+    height: 30vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.caja{
+    text-align: center;
+    padding: 32px;
+    margin: 16px;
+    border: medium solid #000000;
+    background-color: #ffffff;
+    max-height: 700px; 
+    height: 370px;
+}
+.caja1{
+    text-align: left;
+    padding: 32px;
+    margin: 16px;
+    border: medium solid #000000;
+    background-color: #ffffff;
+    max-height: 700px; 
+    height: 490px;
+}
+.caja2{
+    text-align: center;
+    padding: 32px;
+    margin: 16px;
+    border: medium solid #000000;
+    background-color: #ffffff;
+    max-height: 700px; 
+    height: 490px;
+}
+body {
+    background-image: url('milei.jpg');
+    background-size: cover; 
+    z-index: 10;
+       
+}
+.botonvolver{
+    text-align: center;
+    display: block;
+    width: 100px; /* Ancho del botón */
+    background-color: #2e0afa; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.botonvolver:hover{
+    background-color: #4a30d8;
+}
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #00000033;
+}
+
+input[type="text"], input[type="password"], input[type="date"] {
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 10px; /* Radio para hacerlo redondeado */
+    padding: 10px; /* Espaciado interno para que el texto no quede pegado al borde */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c04c0;
+    border: none;
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #6908b8;
+}
+.cancelarbuton {
+    display: inline-block;
+    text-align: center;
+
+    width: 100px; /* Ancho del botón */
+    background-color: #ff5252; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cancelarbuton:hover{
+    background-color: #f70000;
+}
+.cajaperfil{
+    
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.color-notengocuenta{
+    color:#ffffff
+}.campoperfil{
+    width: 100%; /* Ancho del campo de texto al 100% de la caja */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+.imagen-caja{
+    width: 200px;
+    height: 100px;
+}
+.imagen{
+    display: block;
+      margin-top: 10px;
+      max-width: 100%;
+}
+.caja3{
+    text-align: center;
+    padding: 32px;
+    margin: 16px;
+    border: medium solid #000000;
+    background-color: #ffffff;
+    max-height: 700px; 
+    height: 250px;
+}
